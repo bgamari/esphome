@@ -21,8 +21,10 @@ const float BLUETOOTH = 350.0f;
 const float AFTER_BLUETOOTH = 300.0f;
 const float WIFI = 250.0f;
 const float ETHERNET = 250.0f;
+const float AFTER_WIFI = 240.0f;
+const float VPN = 230.0f;
 const float BEFORE_CONNECTION = 220.0f;
-const float AFTER_WIFI = 200.0f;
+const float CONNECTION = 200.0f;
 const float AFTER_CONNECTION = 100.0f;
 const float LATE = -100.0f;
 

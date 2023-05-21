@@ -300,7 +300,7 @@ void MQTTClientComponent::loop() {
     App.reboot();
   }
 }
-float MQTTClientComponent::get_setup_priority() const { return setup_priority::AFTER_WIFI; }
+float MQTTClientComponent::get_setup_priority() const { return setup_priority::CONNECTION; }
 
 // Subscribe
 bool MQTTClientComponent::subscribe_(const char *topic, uint8_t qos) {

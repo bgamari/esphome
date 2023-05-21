@@ -30,10 +30,14 @@ extern const float BLUETOOTH;
 extern const float AFTER_BLUETOOTH;
 extern const float WIFI;
 extern const float ETHERNET;
-/// For components that should be initialized after WiFi and before API is connected.
-extern const float BEFORE_CONNECTION;
 /// For components that should be initialized after WiFi is connected.
 extern const float AFTER_WIFI;
+/// For components that initialize VPN.
+extern const float VPN;
+/// For components that should be initialized after WiFi and before API is connected.
+extern const float BEFORE_CONNECTION;
+/// For components that establish a data connection.
+extern const float CONNECTION;
 /// For components that should be initialized after a data connection (API/MQTT) is connected.
 extern const float AFTER_CONNECTION;
 /// For components that should be initialized at the very end of the setup process.
